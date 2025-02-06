@@ -1,3 +1,12 @@
+/**
+ * Task Manager Application
+ * Author: Tural Alakbarov
+ * Email: tural0272@gmail.com
+ * 
+ * Main server implementation for the task management system.
+ * This file handles the core Express server setup and middleware configuration.
+ */
+
 import express, { type Request, Response, NextFunction } from "express";
 import { registerRoutes } from "./routes";
 import { setupVite, serveStatic, log } from "./vite";

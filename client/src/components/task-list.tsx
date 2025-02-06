@@ -1,3 +1,12 @@
+/**
+ * Task List Component
+ * Author: Tural Alakbarov
+ * Implementation Date: February 2024
+ * 
+ * This component handles the display and management of tasks,
+ * including filtering and status updates.
+ */
+
 import { useQuery, useMutation } from "@tanstack/react-query";
 import { Task } from "@shared/schema";
 import { queryClient, apiRequest } from "@/lib/queryClient";

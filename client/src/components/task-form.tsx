@@ -1,3 +1,12 @@
+/**
+ * Task Form Component
+ * Author: Tural Alakbarov
+ * Implementation Date: February 2024
+ * 
+ * This component handles task creation with form validation
+ * and real-time updates.
+ */
+
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { insertTaskSchema, type InsertTask } from "@shared/schema";
